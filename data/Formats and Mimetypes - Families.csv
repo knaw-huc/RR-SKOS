@@ -1,0 +1,147 @@
+Category	Family	ExtCat	Name	Mimetype	Extension	NewCat	Remark
+3D		3D	WaveFront Object	text/plain	.obj		
+3D	PDF	3D/PDF	Polygon file format	text/plain	.ply		
+3D		3D	X3D	model/x3d+xml	.x3d		
+3D		3D	COLLADA	model/vnd.collada+xml	.dae		
+Audio		Audio	Wave	audio/x-wav	.wav		
+Audio		Audio	FLAC	audio/flac	.flac		
+Audio		Audio	AIFF	audio/x-aiff	.aiff		
+Audio		Audio	MP3	audio/mpeg	.mp3		
+Audio		Audio	MPEG 4 audio	audio/mp4	.m4a		
+Audio		Audio	RAW	audio/raw	.raw		
+Audio		Audio	OGG	application/ogg	.ogg		
+Audio		Audio	BWF	audio/x-wav	.bwf	Data|Text	
+Audio		Audio	OPUS	audio/ogg; audio/opus	.opus		
+Audio	TEI	Audio/TEI	Matroska	audio/x-matroska	.mka		
+Audio		Audio	MXF	application/mxf	.mxf		
+Audio		Audio	NIST SPHERE 	audio/x-nist	.nist		
+Audio		Audio	PhonDat 1	?? 	??		
+Audio		Audio	PhonDat 2	?? 	??		
+Compression		Compression	GZIP	application/gzip	.gz		
+Compression		Compression	ZIP	application/zip	.zip	Data	
+Compression		Compression	RAR	application/x-rar	.rar		
+Computer Aided Design (CAD)		Computer Aided Design (CAD)	AutoCAD DXF version R12 (ASCII)	application/dxf	.dxf		
+Computer Aided Design (CAD)		Computer Aided Design (CAD)	SVG	image/svg+xml	.svg		
+Computer Assisted Qualitative Data Analysis (CAQDAS)		Computer Assisted Qualitative Data Analysis (CAQDAS)	REFI-QDA				
+Container		Container	TAR	application/x-tar	.tar		
+Databases		Databases	CSV	text/csv	.csv		
+Databases		Databases	SIARD	application/xml	.siard		
+Databases		Databases	SQL	application/sql	.sql	Data	
+Databases		Databases	SQLite	application/x-sqlite3	.sqlite		
+Geo/Geographical Information (GIS)		Geo/Geographical Information (GIS)	GML		.gml		
+Geo/Geographical Information (GIS)		Geo/Geographical Information (GIS)	MapInfo Interchange Format		.mif / .mid		
+Geo/Geographical Information (GIS)		Geo/Geographical Information (GIS)	MIF/MID	application/x-mif	.mif/.mid		
+Geo/Georeferenced Images		Geo/Georeferenced Images	GeoTIFF		.tif/.tiff		
+Geo/GIS/Raster		Geo/GIS/Raster	ASCII GRID	application/x-ogc	.asc/.txt		
+Geodata		Geodata	KML	application/vnd.google-earth.kml+xml	.kml		
+Image/raster		Image/raster	JPEG	image/jpeg	.jpg		
+Image/raster		Image/raster	TIFF	image/tiff	.tiff		
+Image/raster	TEI	Image/raster/TEI	PNG	image/png	.png		
+Image/raster		Image/raster	GIF	image/gif	.gif		
+Image/Raster		Image/Raster	JPEG 2000	image/x-jp2	.jp2		
+Image/Raster		Image/Raster	BMP	image/bmp	.bmp		
+Image/Raster		Image/Raster	DICOM	application/dicom	.dcm		
+Image/vector		Image/vector	SVG	image/svg+xml	.svg		
+Lexicon		Lexicon	Toolbox Lexicon	text/x-toolbox-lexicon	.tbx		
+Metadata		Metadata	CMDI	application/x-cmdi+xml	.xml		
+Multimedia		Multimedia	FLEx	(multiple FLEx types)	??		
+Multimedia		Multimedia	SMIL	application/smil	.smil		
+Program code		Program code	Lisp Program Code	text/plain	.lsp		
+Program code		Program code	Perl script	application/x-perl	.pl		
+RDF		RDF	RDF/XML	application/rdf+xml	.rdf		
+RDF		RDF	JSON-LD	application/ld+json			
+RDF		RDF	NTriples	application/n-triples	.nt		
+RDF	CGN	RDF/CGN	Turtle	application/x-turtle	.ttl		
+RDF	CGN	RDF/CGN	Trig	application/trig	.trig		
+Spreadsheets	CGN	Spreadsheets/CGN	CSV	text/csv	.csv		
+Spreadsheets	CGN	Spreadsheets/CGN	ODS	application/vnd.oasis.openocument.spreadsheet	.ods		
+Spreadsheets Related	CGN	Spreadsheets Related/CGN	ODS template	application/vnd.oasis.openocument.spreadsheet-template	.ods		
+Statistical data	CGN	Statistical data/CGN	R				
+Statistical data	CGN	Statistical data/CGN	Data and Setup		.dat/.sps;.dat/.DO		
+Statistical data	CHAT	Statistical data/CHAT	DDI		.xml	Lexicon	
+Statistical data		Statistical data	STATA		.dta		
+Statistical data		Statistical data	SPSS	application/spss-sav	.sav	Lexicon	
+Statistical data		Statistical data	SPSS	application/spss	.spss	Lexicon	
+Statistical data		Statistical data	SPSS	application/x-spss-spv	.spv		
+Statistical data	Shoebox	Statistical data/Shoebox	SPSS Portable	application/x-spss-por	.por		
+Statistical data	Shoebox	Statistical data/Shoebox	SPSS Transport		.sas	Lexicon	dup of 70
+Text	Shoebox	Text/Shoebox	SAM Format 	?? (text/plain)	??		
+Text/Document	Shoebox	Text/Document/Shoebox	PDF	application/pdf	.pdf		
+Text/Document	Shoebox	Text/Document/Shoebox	ODT	application/vnd.oasis.opendocument.text 	.odt		
+Text/Document		Text/Document	PDF/A	application/pdf	.pdf		dup of 67
+Text/Document		Text/Document	DOCX	application/vnd.openxmlformats-officedocument.wordprocessingml.document	.docx		
+Text/Markup		Text/Markup	XML	text/xml	.xml		
+Text/Markup		Text/Markup	HTML	text/html	.html		
+Text/Markup		Text/Markup	TEI	application/tei+xml	.tei		
+Text/Markup		Text/Markup	ELAN	text/x-eaf+xml	.eaf		
+Text/Markup	PDF	Text/Markup/PDF	Praat Textgrid	text/praat-textgrid	.TextGrid		
+Text/Markup		Text/Markup	ISO/TEI transcriptions of spoken language	application/tei+xml;format-variant=tei-iso-spoken	.tei		
+Text/Markup		Text/Markup	EXMARaLDA basic transcription	text/exb+xml	.exb		
+Text/Markup		Text/Markup	EXMARaLDA segmented transcription	text/exs+xml	.exs		
+Text/Markup		Text/Markup	Transcriber	text/x-trs	.trs		
+Text/Markup		Text/Markup	CoNLL	text/plain	.csv/.txt		
+Text/Markup		Text/Markup	Folker	application/xml	.fln		
+Text/Markup		Text/Markup	LaTeX	application/x-latex	.latex		
+Text/Markup		Text/Markup	Lexical markup format	text/x-lmf+xml	.lmf	Data	
+Text/Markup		Text/Markup	TCF	application/xml+tcf	.tcf	Data	
+Text/Markup		Text/Markup	TeX	application/x-tex	.tex		
+Text/Markup		Text/Markup	ANVIL	?? 	.anvil	Data/Statistical	
+Text/Markup		Text/Markup	BAS Partitur Format 	text/plain-bas	.par	Data/Statistical	
+Text/Markup		Text/Markup	CHAT	text/x-chat	.cha	Data/Statistical	
+Text/Markup		Text/Markup	TEI DTABf	application/tei+xml	.xml	Data/Statistical	
+Text/Markup		Text/Markup	TEI I5	application/tei+xml			
+Text/Markup		Text/Markup	CHAT lexicon	text/x-cut	.cut		
+Text/Markup		Text/Markup	ELAN Settings File	text/x-pfsx+xml	.pfsx		
+Text/Markup		Text/Markup	FoLiA XML	application/folia+xml			
+Text/Markup		Text/Markup	IMS Open Corpus WorkBench	?? 	??		
+Text/Markup		Text/Markup	PANGLOSS				
+Text/Markup		Text/Markup	Tiger XML	?? 	??		
+Text/Markup		Text/Markup	Toolbox Lexicon	text/x-toolbox-text	.tbt		
+Text/Markup		Text/Markup	Emu Database	?? 	??		
+Text/Markup		Text/Markup	negra	text/plain	.csv/.txt		
+Text/Markup		Text/Markup	PAULA				
+Text/Markup		Text/Markup	GrAF				
+Text/Markup		Text/Markup		text/x-cgn-bpt+xml	.bpt		
+Text/Markup		Text/Markup		text/x-cgn-lxk+xml	.lxk		
+Text/Markup		Text/Markup		text/x-cgn-pri+xml	.pri		
+Text/Markup		Text/Markup		text/x-cgn-prx+xml	.prx		
+Text/Markup		Text/Markup		text/x-cgn-skp+xml	.skp		
+Text/Markup		Text/Markup		text/x-cgn-tag+xml	.tag		
+Text/Markup		Text/Markup		text/x-cgn-tig+xml	.tig		
+Text/Markup		Text/Markup		text/x-esf	.tr		
+Text/Markup		Text/Markup		text/x-lexus-config+xml	.conf		
+Text/Markup		Text/Markup		text/x-shoebox-language	.lng		
+Text/Markup		Text/Markup		text/x-shoebox-lexicon	.shx		
+Text/Markup		Text/Markup		text/x-shoebox-sortorder	.set		
+Text/Markup		Text/Markup		text/x-shoebox-text	.sht		
+Text/Markup		Text/Markup		text/x-shoebox-type	.typ		
+Text/Markup Related		Text/Markup Related	CSS	text/css	.css		
+Text/Markup Related		Text/Markup Related	XSLT	text/xslt	.xslt		
+Text/Markup Related		Text/Markup Related	XSD	text/xml	.xsd		
+Text/Markup Related		Text/Markup Related	Javascript	text/javascript	.js	Data?	
+Text/Markup Related		Text/Markup Related	ECMAScript	text/ecmascript	.es	Data?	
+Text/Markup Related		Text/Markup Related	XML DTD	text/xml	.dtd	Data?	
+Text/Markup Related		Text/Markup Related	CQP corpus format				
+Text/Plain		Text/Plain	Plain text	text/plain	.txt		
+Text/Plain	SPSS	Text/Plain/SPSS	Unicode Text	text/plain	.txt	Data/Statistical	
+Text/Plain	SPSS	Text/Plain/SPSS	UTF-8 Encoded	text/plain	.txt	Data/Statistical	
+Video	SPSS	Video/SPSS	MPEG 4 video	video/mp4	.mp4	Data/Statistical	
+Video		Video	MPEG 1 video	video/mpeg	.mpg	Program code	
+Video		Video	MPEG 2 video	video/mpeg	.mpeg	Data	
+Video		Video	QuickTime	video/quicktime	.mov	Program code	
+Video		Video	AVI	video/avi	.avi		
+Video		Video	Motion JPEG 2000	video/mj2	.m2j	Data	
+Video		Video	MXF	application/mxf	.mxf	Text/markup	
+Video		Video	OGG Video		.ogv, .ogg	Text/markup	
+--		--	BibTeX	text/plain	.bib		
+--	TEI	--/TEI	HDF5				
+--		--	Tab Separated Data File	text/plain	.tab		
+--		--	AGS Format 	?? (text/xml)	??		
+--		--	Computerized Speech Lab NSP	?? application/octet-stream	.nsp		
+--	TEI	--/TEI	E-Merge Experiment File	application/x-ole-storage	.emrg2		
+--		--	E-Run Experiment File	application/octet-stream	.ebs2	Text/Markup	
+--		--	E-Studio Experimental File	text/plain	.es2		
+--			Jupyter Notebook	text/plain	.ipynb		
+--			PowerPoint Presentation	application/vnd.openxmlformats-officedocument.presentationml.presentation	.pptx		
+--			SALT				
+--			ALTO				
