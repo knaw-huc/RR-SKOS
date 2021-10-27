@@ -37,7 +37,8 @@ if __name__ == "__main__":
         linereader = csv.DictReader(csvfile, delimiter='\t')
         for row in linereader:
             count_total += 1
-            lines_family = f'''category:{row['Category']} a skos:Concept,
+            if row['Extension']!='??' and row['Extension']!='':
+                lines_family = f'''category:{row['Category']} a skos:Concept,
   skos:prefLabel "{row['Category']}",
   skos:narrower family:{row['Family']}.
 
@@ -51,7 +52,7 @@ type:{row['Name']} a skos:Concept,
   iana:extension "{row['Extension']}".
 
 '''
-            lines_type = f'''category:{row['Category']} a skos:Concept,
+                lines_type = f'''category:{row['Category']} a skos:Concept,
   skos:prefLabel "{row['Category']}",
   skos:narrower type:{row['Name']}.
  
@@ -62,10 +63,10 @@ type:{row['Name']} a skos:Concept,
 
 '''
 
-            if row['Family']=='':
-                res_file.write(lines_type)
-            else:
-                res_file.write(lines_family)
+                if row['Family']=='':
+                    res_file.write(lines_type)
+                else:
+                    res_file.write(lines_family)
 
     stderr(f'total: {count_total}')
     end_prog()

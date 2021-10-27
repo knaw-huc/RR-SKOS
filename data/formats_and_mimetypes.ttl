@@ -156,24 +156,6 @@ type:NIST SPHERE  a skos:Concept,
   iana:mimetype "audio/x-nist",
   iana:extension ".nist".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
-  skos:narrower type:PhonDat 1.
- 
-type:PhonDat 1 a skos:Concept,
-  skos:prefLabel "PhonDat 1",
-  iana:mimetype "?? ",
-  iana:extension "??".
-
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
-  skos:narrower type:PhonDat 2.
- 
-type:PhonDat 2 a skos:Concept,
-  skos:prefLabel "PhonDat 2",
-  iana:mimetype "?? ",
-  iana:extension "??".
-
 category:Compression a skos:Concept,
   skos:prefLabel "Compression",
   skos:narrower type:GZIP.
@@ -218,15 +200,6 @@ type:SVG a skos:Concept,
   skos:prefLabel "SVG",
   iana:mimetype "image/svg+xml",
   iana:extension ".svg".
-
-category:Computer Assisted Qualitative Data Analysis (CAQDAS) a skos:Concept,
-  skos:prefLabel "Computer Assisted Qualitative Data Analysis (CAQDAS)",
-  skos:narrower type:REFI-QDA.
- 
-type:REFI-QDA a skos:Concept,
-  skos:prefLabel "REFI-QDA",
-  iana:mimetype "",
-  iana:extension "".
 
 category:Container a skos:Concept,
   skos:prefLabel "Container",
@@ -423,15 +396,6 @@ type:CMDI a skos:Concept,
 
 category:Multimedia a skos:Concept,
   skos:prefLabel "Multimedia",
-  skos:narrower type:FLEx.
- 
-type:FLEx a skos:Concept,
-  skos:prefLabel "FLEx",
-  iana:mimetype "(multiple FLEx types)",
-  iana:extension "??".
-
-category:Multimedia a skos:Concept,
-  skos:prefLabel "Multimedia",
   skos:narrower type:SMIL.
  
 type:SMIL a skos:Concept,
@@ -465,15 +429,6 @@ type:RDF/XML a skos:Concept,
   skos:prefLabel "RDF/XML",
   iana:mimetype "application/rdf+xml",
   iana:extension ".rdf".
-
-category:RDF a skos:Concept,
-  skos:prefLabel "RDF",
-  skos:narrower type:JSON-LD.
- 
-type:JSON-LD a skos:Concept,
-  skos:prefLabel "JSON-LD",
-  iana:mimetype "application/ld+json",
-  iana:extension "".
 
 category:RDF a skos:Concept,
   skos:prefLabel "RDF",
@@ -548,19 +503,6 @@ type:ODS template a skos:Concept,
   skos:prefLabel "ODS template",
   iana:mimetype "application/vnd.oasis.openocument.spreadsheet-template",
   iana:extension ".ods".
-
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
-  skos:narrower family:CGN.
-
-family:CGN a skos:Concept,
-  skos:prefLabel "CGN",
-  skos:narrower type:R.
- 
-type:R a skos:Concept,
-  skos:prefLabel "R",
-  iana:mimetype "",
-  iana:extension "".
 
 category:Statistical data a skos:Concept,
   skos:prefLabel "Statistical data",
@@ -649,19 +591,6 @@ type:SPSS Transport a skos:Concept,
   skos:prefLabel "SPSS Transport",
   iana:mimetype "",
   iana:extension ".sas".
-
-category:Text a skos:Concept,
-  skos:prefLabel "Text",
-  skos:narrower family:Shoebox.
-
-family:Shoebox a skos:Concept,
-  skos:prefLabel "Shoebox",
-  skos:narrower type:SAM Format .
- 
-type:SAM Format  a skos:Concept,
-  skos:prefLabel "SAM Format ",
-  iana:mimetype "?? (text/plain)",
-  iana:extension "??".
 
 category:Text/Document a skos:Concept,
   skos:prefLabel "Text/Document",
@@ -884,15 +813,6 @@ type:TEI DTABf a skos:Concept,
 
 category:Text/Markup a skos:Concept,
   skos:prefLabel "Text/Markup",
-  skos:narrower type:TEI I5.
- 
-type:TEI I5 a skos:Concept,
-  skos:prefLabel "TEI I5",
-  iana:mimetype "application/tei+xml",
-  iana:extension "".
-
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
   skos:narrower type:CHAT lexicon.
  
 type:CHAT lexicon a skos:Concept,
@@ -911,42 +831,6 @@ type:ELAN Settings File a skos:Concept,
 
 category:Text/Markup a skos:Concept,
   skos:prefLabel "Text/Markup",
-  skos:narrower type:FoLiA XML.
- 
-type:FoLiA XML a skos:Concept,
-  skos:prefLabel "FoLiA XML",
-  iana:mimetype "application/folia+xml",
-  iana:extension "".
-
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:IMS Open Corpus WorkBench.
- 
-type:IMS Open Corpus WorkBench a skos:Concept,
-  skos:prefLabel "IMS Open Corpus WorkBench",
-  iana:mimetype "?? ",
-  iana:extension "??".
-
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:PANGLOSS.
- 
-type:PANGLOSS a skos:Concept,
-  skos:prefLabel "PANGLOSS",
-  iana:mimetype "",
-  iana:extension "".
-
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:Tiger XML.
- 
-type:Tiger XML a skos:Concept,
-  skos:prefLabel "Tiger XML",
-  iana:mimetype "?? ",
-  iana:extension "??".
-
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
   skos:narrower type:Toolbox Lexicon.
  
 type:Toolbox Lexicon a skos:Concept,
@@ -956,39 +840,12 @@ type:Toolbox Lexicon a skos:Concept,
 
 category:Text/Markup a skos:Concept,
   skos:prefLabel "Text/Markup",
-  skos:narrower type:Emu Database.
- 
-type:Emu Database a skos:Concept,
-  skos:prefLabel "Emu Database",
-  iana:mimetype "?? ",
-  iana:extension "??".
-
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
   skos:narrower type:negra.
  
 type:negra a skos:Concept,
   skos:prefLabel "negra",
   iana:mimetype "text/plain",
   iana:extension ".csv/.txt".
-
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:PAULA.
- 
-type:PAULA a skos:Concept,
-  skos:prefLabel "PAULA",
-  iana:mimetype "",
-  iana:extension "".
-
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:GrAF.
- 
-type:GrAF a skos:Concept,
-  skos:prefLabel "GrAF",
-  iana:mimetype "",
-  iana:extension "".
 
 category:Text/Markup a skos:Concept,
   skos:prefLabel "Text/Markup",
@@ -1170,15 +1027,6 @@ type:XML DTD a skos:Concept,
   iana:mimetype "text/xml",
   iana:extension ".dtd".
 
-category:Text/Markup Related a skos:Concept,
-  skos:prefLabel "Text/Markup Related",
-  skos:narrower type:CQP corpus format.
- 
-type:CQP corpus format a skos:Concept,
-  skos:prefLabel "CQP corpus format",
-  iana:mimetype "",
-  iana:extension "".
-
 category:Text/Plain a skos:Concept,
   skos:prefLabel "Text/Plain",
   skos:narrower type:Plain text.
@@ -1301,34 +1149,12 @@ type:BibTeX a skos:Concept,
 
 category:-- a skos:Concept,
   skos:prefLabel "--",
-  skos:narrower family:TEI.
-
-family:TEI a skos:Concept,
-  skos:prefLabel "TEI",
-  skos:narrower type:HDF5.
- 
-type:HDF5 a skos:Concept,
-  skos:prefLabel "HDF5",
-  iana:mimetype "",
-  iana:extension "".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
   skos:narrower type:Tab Separated Data File.
  
 type:Tab Separated Data File a skos:Concept,
   skos:prefLabel "Tab Separated Data File",
   iana:mimetype "text/plain",
   iana:extension ".tab".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
-  skos:narrower type:AGS Format .
- 
-type:AGS Format  a skos:Concept,
-  skos:prefLabel "AGS Format ",
-  iana:mimetype "?? (text/xml)",
-  iana:extension "??".
 
 category:-- a skos:Concept,
   skos:prefLabel "--",
@@ -1387,22 +1213,4 @@ type:PowerPoint Presentation a skos:Concept,
   skos:prefLabel "PowerPoint Presentation",
   iana:mimetype "application/vnd.openxmlformats-officedocument.presentationml.presentation",
   iana:extension ".pptx".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
-  skos:narrower type:SALT.
- 
-type:SALT a skos:Concept,
-  skos:prefLabel "SALT",
-  iana:mimetype "",
-  iana:extension "".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
-  skos:narrower type:ALTO.
- 
-type:ALTO a skos:Concept,
-  skos:prefLabel "ALTO",
-  iana:mimetype "",
-  iana:extension "".
 
