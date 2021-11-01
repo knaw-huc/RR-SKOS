@@ -262,7 +262,16 @@ category:Geo/Geographical Information (GIS) a skos:Concept,
 type:MapInfo Interchange Format a skos:Concept,
   skos:prefLabel "MapInfo Interchange Format",
   iana:mimetype "",
-  iana:extension ".mif / .mid".
+  iana:extension ".mif".
+
+category:Geo/Geographical Information (GIS) a skos:Concept,
+  skos:prefLabel "Geo/Geographical Information (GIS)",
+  skos:narrower type:MapInfo Interchange Format.
+ 
+type:MapInfo Interchange Format a skos:Concept,
+  skos:prefLabel "MapInfo Interchange Format",
+  iana:mimetype "",
+  iana:extension ".mid".
 
 category:Geo/Geographical Information (GIS) a skos:Concept,
   skos:prefLabel "Geo/Geographical Information (GIS)",
@@ -271,7 +280,16 @@ category:Geo/Geographical Information (GIS) a skos:Concept,
 type:MIF/MID a skos:Concept,
   skos:prefLabel "MIF/MID",
   iana:mimetype "application/x-mif",
-  iana:extension ".mif/.mid".
+  iana:extension ".mif".
+
+category:Geo/Geographical Information (GIS) a skos:Concept,
+  skos:prefLabel "Geo/Geographical Information (GIS)",
+  skos:narrower type:MIF/MID.
+ 
+type:MIF/MID a skos:Concept,
+  skos:prefLabel "MIF/MID",
+  iana:mimetype "application/x-mif",
+  iana:extension ".mid".
 
 category:Geo/Georeferenced Images a skos:Concept,
   skos:prefLabel "Geo/Georeferenced Images",
@@ -280,7 +298,16 @@ category:Geo/Georeferenced Images a skos:Concept,
 type:GeoTIFF a skos:Concept,
   skos:prefLabel "GeoTIFF",
   iana:mimetype "",
-  iana:extension ".tif/.tiff".
+  iana:extension ".tif".
+
+category:Geo/Georeferenced Images a skos:Concept,
+  skos:prefLabel "Geo/Georeferenced Images",
+  skos:narrower type:GeoTIFF.
+ 
+type:GeoTIFF a skos:Concept,
+  skos:prefLabel "GeoTIFF",
+  iana:mimetype "",
+  iana:extension ".tiff".
 
 category:Geo/GIS/Raster a skos:Concept,
   skos:prefLabel "Geo/GIS/Raster",
@@ -289,7 +316,16 @@ category:Geo/GIS/Raster a skos:Concept,
 type:ASCII GRID a skos:Concept,
   skos:prefLabel "ASCII GRID",
   iana:mimetype "application/x-ogc",
-  iana:extension ".asc/.txt".
+  iana:extension ".asc".
+
+category:Geo/GIS/Raster a skos:Concept,
+  skos:prefLabel "Geo/GIS/Raster",
+  skos:narrower type:ASCII GRID.
+ 
+type:ASCII GRID a skos:Concept,
+  skos:prefLabel "ASCII GRID",
+  iana:mimetype "application/x-ogc",
+  iana:extension ".txt".
 
 category:Geodata a skos:Concept,
   skos:prefLabel "Geodata",
@@ -515,7 +551,46 @@ family:CGN a skos:Concept,
 type:Data and Setup a skos:Concept,
   skos:prefLabel "Data and Setup",
   iana:mimetype "",
-  iana:extension ".dat/.sps;.dat/.DO".
+  iana:extension ".dat".
+
+category:Statistical data a skos:Concept,
+  skos:prefLabel "Statistical data",
+  skos:narrower family:CGN.
+
+family:CGN a skos:Concept,
+  skos:prefLabel "CGN",
+  skos:narrower type:Data and Setup.
+ 
+type:Data and Setup a skos:Concept,
+  skos:prefLabel "Data and Setup",
+  iana:mimetype "",
+  iana:extension ".sps".
+
+category:Statistical data a skos:Concept,
+  skos:prefLabel "Statistical data",
+  skos:narrower family:CGN.
+
+family:CGN a skos:Concept,
+  skos:prefLabel "CGN",
+  skos:narrower type:Data and Setup.
+ 
+type:Data and Setup a skos:Concept,
+  skos:prefLabel "Data and Setup",
+  iana:mimetype "",
+  iana:extension ".dat".
+
+category:Statistical data a skos:Concept,
+  skos:prefLabel "Statistical data",
+  skos:narrower family:CGN.
+
+family:CGN a skos:Concept,
+  skos:prefLabel "CGN",
+  skos:narrower type:Data and Setup.
+ 
+type:Data and Setup a skos:Concept,
+  skos:prefLabel "Data and Setup",
+  iana:mimetype "",
+  iana:extension ".DO".
 
 category:Statistical data a skos:Concept,
   skos:prefLabel "Statistical data",
@@ -728,7 +803,16 @@ category:Text/Markup a skos:Concept,
 type:CoNLL a skos:Concept,
   skos:prefLabel "CoNLL",
   iana:mimetype "text/plain",
-  iana:extension ".csv/.txt".
+  iana:extension ".csv".
+
+category:Text/Markup a skos:Concept,
+  skos:prefLabel "Text/Markup",
+  skos:narrower type:CoNLL.
+ 
+type:CoNLL a skos:Concept,
+  skos:prefLabel "CoNLL",
+  iana:mimetype "text/plain",
+  iana:extension ".txt".
 
 category:Text/Markup a skos:Concept,
   skos:prefLabel "Text/Markup",
@@ -845,7 +929,16 @@ category:Text/Markup a skos:Concept,
 type:negra a skos:Concept,
   skos:prefLabel "negra",
   iana:mimetype "text/plain",
-  iana:extension ".csv/.txt".
+  iana:extension ".csv".
+
+category:Text/Markup a skos:Concept,
+  skos:prefLabel "Text/Markup",
+  skos:narrower type:negra.
+ 
+type:negra a skos:Concept,
+  skos:prefLabel "negra",
+  iana:mimetype "text/plain",
+  iana:extension ".txt".
 
 category:Text/Markup a skos:Concept,
   skos:prefLabel "Text/Markup",
@@ -1136,7 +1229,16 @@ category:Video a skos:Concept,
 type:OGG Video a skos:Concept,
   skos:prefLabel "OGG Video",
   iana:mimetype "",
-  iana:extension ".ogv, .ogg".
+  iana:extension ".ogv".
+
+category:Video a skos:Concept,
+  skos:prefLabel "Video",
+  skos:narrower type:OGG Video.
+ 
+type:OGG Video a skos:Concept,
+  skos:prefLabel "OGG Video",
+  iana:mimetype "",
+  iana:extension ".ogg".
 
 category:-- a skos:Concept,
   skos:prefLabel "--",
