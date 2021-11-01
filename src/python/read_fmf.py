@@ -37,8 +37,9 @@ if __name__ == "__main__":
         linereader = csv.DictReader(csvfile, delimiter='\t')
         for row in linereader:
             count_total += 1
-            if row['Extension']!='??' and row['Extension']!='':
-                lines_family = f'''category:{row['Category']} a skos:Concept,
+            for ext in re.split(',|;|/',row['Extension']):
+                if row['Extension']!='??' and row['Extension']!='':
+                    lines_family = f'''category:{row['Category']} a skos:Concept,
   skos:prefLabel "{row['Category']}",
   skos:narrower family:{row['Family']}.
 
@@ -49,24 +50,24 @@ family:{row['Family']} a skos:Concept,
 type:{row['Name']} a skos:Concept,
   skos:prefLabel "{row['Name']}",
   iana:mimetype "{row['Mimetype']}",
-  iana:extension "{row['Extension']}".
+  iana:extension "{ext.strip()}".
 
 '''
-                lines_type = f'''category:{row['Category']} a skos:Concept,
+                    lines_type = f'''category:{row['Category']} a skos:Concept,
   skos:prefLabel "{row['Category']}",
   skos:narrower type:{row['Name']}.
  
 type:{row['Name']} a skos:Concept,
   skos:prefLabel "{row['Name']}",
   iana:mimetype "{row['Mimetype']}",
-  iana:extension "{row['Extension']}".
+  iana:extension "{ext.strip()}".
 
 '''
 
-                if row['Family']=='':
-                    res_file.write(lines_type)
-                else:
-                    res_file.write(lines_family)
+                    if row['Family']=='':
+                        res_file.write(lines_type)
+                    else:
+                        res_file.write(lines_family)
 
     stderr(f'total: {count_total}')
     end_prog()
