@@ -4,1315 +4,1239 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix iana: <https://www.iana.org/assignments/media-types/media-types#> .
 
-category:3D a skos:Concept,
-  skos:prefLabel "3D",
-  skos:narrower type:WaveFront Object.
+category:3D a skos:Concept;
+  skos:prefLabel "3D";
+  skos:narrower type:WaveFront_Object.
  
-type:WaveFront Object a skos:Concept,
-  skos:prefLabel "WaveFront Object",
-  iana:mimetype "text/plain",
+type:WaveFront_Object a skos:Concept;
+  skos:prefLabel "WaveFront Object";
+  iana:mimetype "text/plain";
   iana:extension ".obj".
 
-category:3D a skos:Concept,
-  skos:prefLabel "3D",
+category:3D a skos:Concept;
+  skos:prefLabel "3D";
   skos:narrower family:PDF.
 
-family:PDF a skos:Concept,
-  skos:prefLabel "PDF",
-  skos:narrower type:Polygon file format.
+family:PDF a skos:Concept;
+  skos:prefLabel "PDF";
+  skos:narrower type:Polygon_file_format.
  
-type:Polygon file format a skos:Concept,
-  skos:prefLabel "Polygon file format",
-  iana:mimetype "text/plain",
+type:Polygon_file_format a skos:Concept;
+  skos:prefLabel "Polygon file format";
+  iana:mimetype "text/plain";
   iana:extension ".ply".
 
-category:3D a skos:Concept,
-  skos:prefLabel "3D",
+category:3D a skos:Concept;
+  skos:prefLabel "3D";
   skos:narrower type:X3D.
  
-type:X3D a skos:Concept,
-  skos:prefLabel "X3D",
-  iana:mimetype "model/x3d+xml",
+type:X3D a skos:Concept;
+  skos:prefLabel "X3D";
+  iana:mimetype "model/x3d+xml";
   iana:extension ".x3d".
 
-category:3D a skos:Concept,
-  skos:prefLabel "3D",
+category:3D a skos:Concept;
+  skos:prefLabel "3D";
   skos:narrower type:COLLADA.
  
-type:COLLADA a skos:Concept,
-  skos:prefLabel "COLLADA",
-  iana:mimetype "model/vnd.collada+xml",
+type:COLLADA a skos:Concept;
+  skos:prefLabel "COLLADA";
+  iana:mimetype "model/vnd.collada+xml";
   iana:extension ".dae".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
   skos:narrower type:Wave.
  
-type:Wave a skos:Concept,
-  skos:prefLabel "Wave",
-  iana:mimetype "audio/x-wav",
+type:Wave a skos:Concept;
+  skos:prefLabel "Wave";
+  iana:mimetype "audio/x-wav";
   iana:extension ".wav".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
   skos:narrower type:FLAC.
  
-type:FLAC a skos:Concept,
-  skos:prefLabel "FLAC",
-  iana:mimetype "audio/flac",
+type:FLAC a skos:Concept;
+  skos:prefLabel "FLAC";
+  iana:mimetype "audio/flac";
   iana:extension ".flac".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
   skos:narrower type:AIFF.
  
-type:AIFF a skos:Concept,
-  skos:prefLabel "AIFF",
-  iana:mimetype "audio/x-aiff",
+type:AIFF a skos:Concept;
+  skos:prefLabel "AIFF";
+  iana:mimetype "audio/x-aiff";
   iana:extension ".aiff".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
   skos:narrower type:MP3.
  
-type:MP3 a skos:Concept,
-  skos:prefLabel "MP3",
-  iana:mimetype "audio/mpeg",
+type:MP3 a skos:Concept;
+  skos:prefLabel "MP3";
+  iana:mimetype "audio/mpeg";
   iana:extension ".mp3".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
-  skos:narrower type:MPEG 4 audio.
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
+  skos:narrower type:MPEG_4_audio.
  
-type:MPEG 4 audio a skos:Concept,
-  skos:prefLabel "MPEG 4 audio",
-  iana:mimetype "audio/mp4",
+type:MPEG_4_audio a skos:Concept;
+  skos:prefLabel "MPEG 4 audio";
+  iana:mimetype "audio/mp4";
   iana:extension ".m4a".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
   skos:narrower type:RAW.
  
-type:RAW a skos:Concept,
-  skos:prefLabel "RAW",
-  iana:mimetype "audio/raw",
+type:RAW a skos:Concept;
+  skos:prefLabel "RAW";
+  iana:mimetype "audio/raw";
   iana:extension ".raw".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
   skos:narrower type:OGG.
  
-type:OGG a skos:Concept,
-  skos:prefLabel "OGG",
-  iana:mimetype "application/ogg",
+type:OGG a skos:Concept;
+  skos:prefLabel "OGG";
+  iana:mimetype "application/ogg";
   iana:extension ".ogg".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
   skos:narrower type:BWF.
  
-type:BWF a skos:Concept,
-  skos:prefLabel "BWF",
-  iana:mimetype "audio/x-wav",
+type:BWF a skos:Concept;
+  skos:prefLabel "BWF";
+  iana:mimetype "audio/x-wav";
   iana:extension ".bwf".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
   skos:narrower type:OPUS.
  
-type:OPUS a skos:Concept,
-  skos:prefLabel "OPUS",
-  iana:mimetype "audio/ogg; audio/opus",
+type:OPUS a skos:Concept;
+  skos:prefLabel "OPUS";
+  iana:mimetype "audio/ogg; audio/opus";
   iana:extension ".opus".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
   skos:narrower family:TEI.
 
-family:TEI a skos:Concept,
-  skos:prefLabel "TEI",
+family:TEI a skos:Concept;
+  skos:prefLabel "TEI";
   skos:narrower type:Matroska.
  
-type:Matroska a skos:Concept,
-  skos:prefLabel "Matroska",
-  iana:mimetype "audio/x-matroska",
+type:Matroska a skos:Concept;
+  skos:prefLabel "Matroska";
+  iana:mimetype "audio/x-matroska";
   iana:extension ".mka".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
   skos:narrower type:MXF.
  
-type:MXF a skos:Concept,
-  skos:prefLabel "MXF",
-  iana:mimetype "application/mxf",
+type:MXF a skos:Concept;
+  skos:prefLabel "MXF";
+  iana:mimetype "application/mxf";
   iana:extension ".mxf".
 
-category:Audio a skos:Concept,
-  skos:prefLabel "Audio",
-  skos:narrower type:NIST SPHERE .
+category:Audio a skos:Concept;
+  skos:prefLabel "Audio";
+  skos:narrower type:NIST_SPHERE.
  
-type:NIST SPHERE  a skos:Concept,
-  skos:prefLabel "NIST SPHERE ",
-  iana:mimetype "audio/x-nist",
+type:NIST_SPHERE a skos:Concept;
+  skos:prefLabel "NIST SPHERE";
+  iana:mimetype "audio/x-nist";
   iana:extension ".nist".
 
-category:Compression a skos:Concept,
-  skos:prefLabel "Compression",
+category:Compression a skos:Concept;
+  skos:prefLabel "Compression";
   skos:narrower type:GZIP.
  
-type:GZIP a skos:Concept,
-  skos:prefLabel "GZIP",
-  iana:mimetype "application/gzip",
+type:GZIP a skos:Concept;
+  skos:prefLabel "GZIP";
+  iana:mimetype "application/gzip";
   iana:extension ".gz".
 
-category:Compression a skos:Concept,
-  skos:prefLabel "Compression",
+category:Compression a skos:Concept;
+  skos:prefLabel "Compression";
   skos:narrower type:ZIP.
  
-type:ZIP a skos:Concept,
-  skos:prefLabel "ZIP",
-  iana:mimetype "application/zip",
+type:ZIP a skos:Concept;
+  skos:prefLabel "ZIP";
+  iana:mimetype "application/zip";
   iana:extension ".zip".
 
-category:Compression a skos:Concept,
-  skos:prefLabel "Compression",
+category:Compression a skos:Concept;
+  skos:prefLabel "Compression";
   skos:narrower type:RAR.
  
-type:RAR a skos:Concept,
-  skos:prefLabel "RAR",
-  iana:mimetype "application/x-rar",
+type:RAR a skos:Concept;
+  skos:prefLabel "RAR";
+  iana:mimetype "application/x-rar";
   iana:extension ".rar".
 
-category:Computer Aided Design (CAD) a skos:Concept,
-  skos:prefLabel "Computer Aided Design (CAD)",
-  skos:narrower type:AutoCAD DXF version R12 (ASCII).
+category:Computer_Aided_Design__CAD_ a skos:Concept;
+  skos:prefLabel "Computer Aided Design (CAD)";
+  skos:narrower type:AutoCAD_DXF_version_R12__ASCII_.
  
-type:AutoCAD DXF version R12 (ASCII) a skos:Concept,
-  skos:prefLabel "AutoCAD DXF version R12 (ASCII)",
-  iana:mimetype "application/dxf",
+type:AutoCAD_DXF_version_R12__ASCII_ a skos:Concept;
+  skos:prefLabel "AutoCAD DXF version R12 (ASCII)";
+  iana:mimetype "application/dxf";
   iana:extension ".dxf".
 
-category:Computer Aided Design (CAD) a skos:Concept,
-  skos:prefLabel "Computer Aided Design (CAD)",
+category:Computer_Aided_Design__CAD_ a skos:Concept;
+  skos:prefLabel "Computer Aided Design (CAD)";
   skos:narrower type:SVG.
  
-type:SVG a skos:Concept,
-  skos:prefLabel "SVG",
-  iana:mimetype "image/svg+xml",
+type:SVG a skos:Concept;
+  skos:prefLabel "SVG";
+  iana:mimetype "image/svg+xml";
   iana:extension ".svg".
 
-category:Container a skos:Concept,
-  skos:prefLabel "Container",
+category:Container a skos:Concept;
+  skos:prefLabel "Container";
   skos:narrower type:TAR.
  
-type:TAR a skos:Concept,
-  skos:prefLabel "TAR",
-  iana:mimetype "application/x-tar",
+type:TAR a skos:Concept;
+  skos:prefLabel "TAR";
+  iana:mimetype "application/x-tar";
   iana:extension ".tar".
 
-category:Databases a skos:Concept,
-  skos:prefLabel "Databases",
+category:Databases a skos:Concept;
+  skos:prefLabel "Databases";
   skos:narrower type:CSV.
  
-type:CSV a skos:Concept,
-  skos:prefLabel "CSV",
-  iana:mimetype "text/csv",
+type:CSV a skos:Concept;
+  skos:prefLabel "CSV";
+  iana:mimetype "text/csv";
   iana:extension ".csv".
 
-category:Databases a skos:Concept,
-  skos:prefLabel "Databases",
+category:Databases a skos:Concept;
+  skos:prefLabel "Databases";
   skos:narrower type:SIARD.
  
-type:SIARD a skos:Concept,
-  skos:prefLabel "SIARD",
-  iana:mimetype "application/xml",
+type:SIARD a skos:Concept;
+  skos:prefLabel "SIARD";
+  iana:mimetype "application/xml";
   iana:extension ".siard".
 
-category:Databases a skos:Concept,
-  skos:prefLabel "Databases",
+category:Databases a skos:Concept;
+  skos:prefLabel "Databases";
   skos:narrower type:SQL.
  
-type:SQL a skos:Concept,
-  skos:prefLabel "SQL",
-  iana:mimetype "application/sql",
+type:SQL a skos:Concept;
+  skos:prefLabel "SQL";
+  iana:mimetype "application/sql";
   iana:extension ".sql".
 
-category:Databases a skos:Concept,
-  skos:prefLabel "Databases",
+category:Databases a skos:Concept;
+  skos:prefLabel "Databases";
   skos:narrower type:SQLite.
  
-type:SQLite a skos:Concept,
-  skos:prefLabel "SQLite",
-  iana:mimetype "application/x-sqlite3",
+type:SQLite a skos:Concept;
+  skos:prefLabel "SQLite";
+  iana:mimetype "application/x-sqlite3";
   iana:extension ".sqlite".
 
-category:Geo/Geographical Information (GIS) a skos:Concept,
-  skos:prefLabel "Geo/Geographical Information (GIS)",
+category:Geo_Geographical_Information__GIS_ a skos:Concept;
+  skos:prefLabel "Geo/Geographical Information (GIS)";
   skos:narrower type:GML.
  
-type:GML a skos:Concept,
-  skos:prefLabel "GML",
-  iana:mimetype "",
+type:GML a skos:Concept;
+  skos:prefLabel "GML";
+  iana:mimetype "";
   iana:extension ".gml".
 
-category:Geo/Geographical Information (GIS) a skos:Concept,
-  skos:prefLabel "Geo/Geographical Information (GIS)",
-  skos:narrower type:MapInfo Interchange Format.
+category:Geo_Geographical_Information__GIS_ a skos:Concept;
+  skos:prefLabel "Geo/Geographical Information (GIS)";
+  skos:narrower type:MapInfo_Interchange_Format.
  
-type:MapInfo Interchange Format a skos:Concept,
-  skos:prefLabel "MapInfo Interchange Format",
-  iana:mimetype "",
+type:MapInfo_Interchange_Format a skos:Concept;
+  skos:prefLabel "MapInfo Interchange Format";
+  iana:mimetype "";
   iana:extension ".mif".
 
-category:Geo/Geographical Information (GIS) a skos:Concept,
-  skos:prefLabel "Geo/Geographical Information (GIS)",
-  skos:narrower type:MapInfo Interchange Format.
+category:Geo_Geographical_Information__GIS_ a skos:Concept;
+  skos:prefLabel "Geo/Geographical Information (GIS)";
+  skos:narrower type:MapInfo_Interchange_Format.
  
-type:MapInfo Interchange Format a skos:Concept,
-  skos:prefLabel "MapInfo Interchange Format",
-  iana:mimetype "",
+type:MapInfo_Interchange_Format a skos:Concept;
+  skos:prefLabel "MapInfo Interchange Format";
+  iana:mimetype "";
   iana:extension ".mid".
 
-category:Geo/Geographical Information (GIS) a skos:Concept,
-  skos:prefLabel "Geo/Geographical Information (GIS)",
-  skos:narrower type:MIF/MID.
+category:Geo_Geographical_Information__GIS_ a skos:Concept;
+  skos:prefLabel "Geo/Geographical Information (GIS)";
+  skos:narrower type:MIF_MID.
  
-type:MIF/MID a skos:Concept,
-  skos:prefLabel "MIF/MID",
-  iana:mimetype "application/x-mif",
+type:MIF_MID a skos:Concept;
+  skos:prefLabel "MIF/MID";
+  iana:mimetype "application/x-mif";
   iana:extension ".mif".
 
-category:Geo/Geographical Information (GIS) a skos:Concept,
-  skos:prefLabel "Geo/Geographical Information (GIS)",
-  skos:narrower type:MIF/MID.
+category:Geo_Geographical_Information__GIS_ a skos:Concept;
+  skos:prefLabel "Geo/Geographical Information (GIS)";
+  skos:narrower type:MIF_MID.
  
-type:MIF/MID a skos:Concept,
-  skos:prefLabel "MIF/MID",
-  iana:mimetype "application/x-mif",
+type:MIF_MID a skos:Concept;
+  skos:prefLabel "MIF/MID";
+  iana:mimetype "application/x-mif";
   iana:extension ".mid".
 
-category:Geo/Georeferenced Images a skos:Concept,
-  skos:prefLabel "Geo/Georeferenced Images",
+category:Geo_Georeferenced_Images a skos:Concept;
+  skos:prefLabel "Geo/Georeferenced Images";
   skos:narrower type:GeoTIFF.
  
-type:GeoTIFF a skos:Concept,
-  skos:prefLabel "GeoTIFF",
-  iana:mimetype "",
+type:GeoTIFF a skos:Concept;
+  skos:prefLabel "GeoTIFF";
+  iana:mimetype "";
   iana:extension ".tif".
 
-category:Geo/Georeferenced Images a skos:Concept,
-  skos:prefLabel "Geo/Georeferenced Images",
+category:Geo_Georeferenced_Images a skos:Concept;
+  skos:prefLabel "Geo/Georeferenced Images";
   skos:narrower type:GeoTIFF.
  
-type:GeoTIFF a skos:Concept,
-  skos:prefLabel "GeoTIFF",
-  iana:mimetype "",
+type:GeoTIFF a skos:Concept;
+  skos:prefLabel "GeoTIFF";
+  iana:mimetype "";
   iana:extension ".tiff".
 
-category:Geo/GIS/Raster a skos:Concept,
-  skos:prefLabel "Geo/GIS/Raster",
-  skos:narrower type:ASCII GRID.
+category:Geo_GIS_Raster a skos:Concept;
+  skos:prefLabel "Geo/GIS/Raster";
+  skos:narrower type:ASCII_GRID.
  
-type:ASCII GRID a skos:Concept,
-  skos:prefLabel "ASCII GRID",
-  iana:mimetype "application/x-ogc",
+type:ASCII_GRID a skos:Concept;
+  skos:prefLabel "ASCII GRID";
+  iana:mimetype "application/x-ogc";
   iana:extension ".asc".
 
-category:Geo/GIS/Raster a skos:Concept,
-  skos:prefLabel "Geo/GIS/Raster",
-  skos:narrower type:ASCII GRID.
+category:Geo_GIS_Raster a skos:Concept;
+  skos:prefLabel "Geo/GIS/Raster";
+  skos:narrower type:ASCII_GRID.
  
-type:ASCII GRID a skos:Concept,
-  skos:prefLabel "ASCII GRID",
-  iana:mimetype "application/x-ogc",
+type:ASCII_GRID a skos:Concept;
+  skos:prefLabel "ASCII GRID";
+  iana:mimetype "application/x-ogc";
   iana:extension ".txt".
 
-category:Geodata a skos:Concept,
-  skos:prefLabel "Geodata",
+category:Geodata a skos:Concept;
+  skos:prefLabel "Geodata";
   skos:narrower type:KML.
  
-type:KML a skos:Concept,
-  skos:prefLabel "KML",
-  iana:mimetype "application/vnd.google-earth.kml+xml",
+type:KML a skos:Concept;
+  skos:prefLabel "KML";
+  iana:mimetype "application/vnd.google-earth.kml+xml";
   iana:extension ".kml".
 
-category:Image/raster a skos:Concept,
-  skos:prefLabel "Image/raster",
+category:Image_raster a skos:Concept;
+  skos:prefLabel "Image/raster";
   skos:narrower type:JPEG.
  
-type:JPEG a skos:Concept,
-  skos:prefLabel "JPEG",
-  iana:mimetype "image/jpeg",
+type:JPEG a skos:Concept;
+  skos:prefLabel "JPEG";
+  iana:mimetype "image/jpeg";
   iana:extension ".jpg".
 
-category:Image/raster a skos:Concept,
-  skos:prefLabel "Image/raster",
+category:Image_raster a skos:Concept;
+  skos:prefLabel "Image/raster";
   skos:narrower type:TIFF.
  
-type:TIFF a skos:Concept,
-  skos:prefLabel "TIFF",
-  iana:mimetype "image/tiff",
+type:TIFF a skos:Concept;
+  skos:prefLabel "TIFF";
+  iana:mimetype "image/tiff";
   iana:extension ".tiff".
 
-category:Image/raster a skos:Concept,
-  skos:prefLabel "Image/raster",
+category:Image_raster a skos:Concept;
+  skos:prefLabel "Image/raster";
   skos:narrower family:TEI.
 
-family:TEI a skos:Concept,
-  skos:prefLabel "TEI",
+family:TEI a skos:Concept;
+  skos:prefLabel "TEI";
   skos:narrower type:PNG.
  
-type:PNG a skos:Concept,
-  skos:prefLabel "PNG",
-  iana:mimetype "image/png",
+type:PNG a skos:Concept;
+  skos:prefLabel "PNG";
+  iana:mimetype "image/png";
   iana:extension ".png".
 
-category:Image/raster a skos:Concept,
-  skos:prefLabel "Image/raster",
+category:Image_raster a skos:Concept;
+  skos:prefLabel "Image/raster";
   skos:narrower type:GIF.
  
-type:GIF a skos:Concept,
-  skos:prefLabel "GIF",
-  iana:mimetype "image/gif",
+type:GIF a skos:Concept;
+  skos:prefLabel "GIF";
+  iana:mimetype "image/gif";
   iana:extension ".gif".
 
-category:Image/Raster a skos:Concept,
-  skos:prefLabel "Image/Raster",
-  skos:narrower type:JPEG 2000.
+category:Image_Raster a skos:Concept;
+  skos:prefLabel "Image/Raster";
+  skos:narrower type:JPEG_2000.
  
-type:JPEG 2000 a skos:Concept,
-  skos:prefLabel "JPEG 2000",
-  iana:mimetype "image/x-jp2",
+type:JPEG_2000 a skos:Concept;
+  skos:prefLabel "JPEG 2000";
+  iana:mimetype "image/x-jp2";
   iana:extension ".jp2".
 
-category:Image/Raster a skos:Concept,
-  skos:prefLabel "Image/Raster",
+category:Image_Raster a skos:Concept;
+  skos:prefLabel "Image/Raster";
   skos:narrower type:BMP.
  
-type:BMP a skos:Concept,
-  skos:prefLabel "BMP",
-  iana:mimetype "image/bmp",
+type:BMP a skos:Concept;
+  skos:prefLabel "BMP";
+  iana:mimetype "image/bmp";
   iana:extension ".bmp".
 
-category:Image/Raster a skos:Concept,
-  skos:prefLabel "Image/Raster",
+category:Image_Raster a skos:Concept;
+  skos:prefLabel "Image/Raster";
   skos:narrower type:DICOM.
  
-type:DICOM a skos:Concept,
-  skos:prefLabel "DICOM",
-  iana:mimetype "application/dicom",
+type:DICOM a skos:Concept;
+  skos:prefLabel "DICOM";
+  iana:mimetype "application/dicom";
   iana:extension ".dcm".
 
-category:Image/vector a skos:Concept,
-  skos:prefLabel "Image/vector",
+category:Image_vector a skos:Concept;
+  skos:prefLabel "Image/vector";
   skos:narrower type:SVG.
  
-type:SVG a skos:Concept,
-  skos:prefLabel "SVG",
-  iana:mimetype "image/svg+xml",
+type:SVG a skos:Concept;
+  skos:prefLabel "SVG";
+  iana:mimetype "image/svg+xml";
   iana:extension ".svg".
 
-category:Lexicon a skos:Concept,
-  skos:prefLabel "Lexicon",
-  skos:narrower type:Toolbox Lexicon.
+category:Lexicon a skos:Concept;
+  skos:prefLabel "Lexicon";
+  skos:narrower type:Toolbox_Lexicon.
  
-type:Toolbox Lexicon a skos:Concept,
-  skos:prefLabel "Toolbox Lexicon",
-  iana:mimetype "text/x-toolbox-lexicon",
+type:Toolbox_Lexicon a skos:Concept;
+  skos:prefLabel "Toolbox Lexicon";
+  iana:mimetype "text/x-toolbox-lexicon";
   iana:extension ".tbx".
 
-category:Metadata a skos:Concept,
-  skos:prefLabel "Metadata",
+category:Metadata a skos:Concept;
+  skos:prefLabel "Metadata";
   skos:narrower type:CMDI.
  
-type:CMDI a skos:Concept,
-  skos:prefLabel "CMDI",
-  iana:mimetype "application/x-cmdi+xml",
+type:CMDI a skos:Concept;
+  skos:prefLabel "CMDI";
+  iana:mimetype "application/x-cmdi+xml";
   iana:extension ".xml".
 
-category:Multimedia a skos:Concept,
-  skos:prefLabel "Multimedia",
+category:Multimedia a skos:Concept;
+  skos:prefLabel "Multimedia";
   skos:narrower type:SMIL.
  
-type:SMIL a skos:Concept,
-  skos:prefLabel "SMIL",
-  iana:mimetype "application/smil",
+type:SMIL a skos:Concept;
+  skos:prefLabel "SMIL";
+  iana:mimetype "application/smil";
   iana:extension ".smil".
 
-category:Program code a skos:Concept,
-  skos:prefLabel "Program code",
-  skos:narrower type:Lisp Program Code.
+category:Program_code a skos:Concept;
+  skos:prefLabel "Program code";
+  skos:narrower type:Lisp_Program_Code.
  
-type:Lisp Program Code a skos:Concept,
-  skos:prefLabel "Lisp Program Code",
-  iana:mimetype "text/plain",
+type:Lisp_Program_Code a skos:Concept;
+  skos:prefLabel "Lisp Program Code";
+  iana:mimetype "text/plain";
   iana:extension ".lsp".
 
-category:Program code a skos:Concept,
-  skos:prefLabel "Program code",
-  skos:narrower type:Perl script.
+category:Program_code a skos:Concept;
+  skos:prefLabel "Program code";
+  skos:narrower type:Perl_script.
  
-type:Perl script a skos:Concept,
-  skos:prefLabel "Perl script",
-  iana:mimetype "application/x-perl",
+type:Perl_script a skos:Concept;
+  skos:prefLabel "Perl script";
+  iana:mimetype "application/x-perl";
   iana:extension ".pl".
 
-category:RDF a skos:Concept,
-  skos:prefLabel "RDF",
-  skos:narrower type:RDF/XML.
+category:RDF a skos:Concept;
+  skos:prefLabel "RDF";
+  skos:narrower type:RDF_XML.
  
-type:RDF/XML a skos:Concept,
-  skos:prefLabel "RDF/XML",
-  iana:mimetype "application/rdf+xml",
+type:RDF_XML a skos:Concept;
+  skos:prefLabel "RDF/XML";
+  iana:mimetype "application/rdf+xml";
   iana:extension ".rdf".
 
-category:RDF a skos:Concept,
-  skos:prefLabel "RDF",
+category:RDF a skos:Concept;
+  skos:prefLabel "RDF";
   skos:narrower type:NTriples.
  
-type:NTriples a skos:Concept,
-  skos:prefLabel "NTriples",
-  iana:mimetype "application/n-triples",
+type:NTriples a skos:Concept;
+  skos:prefLabel "NTriples";
+  iana:mimetype "application/n-triples";
   iana:extension ".nt".
 
-category:RDF a skos:Concept,
-  skos:prefLabel "RDF",
+category:RDF a skos:Concept;
+  skos:prefLabel "RDF";
   skos:narrower family:CGN.
 
-family:CGN a skos:Concept,
-  skos:prefLabel "CGN",
+family:CGN a skos:Concept;
+  skos:prefLabel "CGN";
   skos:narrower type:Turtle.
  
-type:Turtle a skos:Concept,
-  skos:prefLabel "Turtle",
-  iana:mimetype "application/x-turtle",
+type:Turtle a skos:Concept;
+  skos:prefLabel "Turtle";
+  iana:mimetype "application/x-turtle";
   iana:extension ".ttl".
 
-category:RDF a skos:Concept,
-  skos:prefLabel "RDF",
+category:RDF a skos:Concept;
+  skos:prefLabel "RDF";
   skos:narrower family:CGN.
 
-family:CGN a skos:Concept,
-  skos:prefLabel "CGN",
+family:CGN a skos:Concept;
+  skos:prefLabel "CGN";
   skos:narrower type:Trig.
  
-type:Trig a skos:Concept,
-  skos:prefLabel "Trig",
-  iana:mimetype "application/trig",
+type:Trig a skos:Concept;
+  skos:prefLabel "Trig";
+  iana:mimetype "application/trig";
   iana:extension ".trig".
 
-category:Spreadsheets a skos:Concept,
-  skos:prefLabel "Spreadsheets",
+category:Spreadsheets a skos:Concept;
+  skos:prefLabel "Spreadsheets";
   skos:narrower family:CGN.
 
-family:CGN a skos:Concept,
-  skos:prefLabel "CGN",
+family:CGN a skos:Concept;
+  skos:prefLabel "CGN";
   skos:narrower type:CSV.
  
-type:CSV a skos:Concept,
-  skos:prefLabel "CSV",
-  iana:mimetype "text/csv",
+type:CSV a skos:Concept;
+  skos:prefLabel "CSV";
+  iana:mimetype "text/csv";
   iana:extension ".csv".
 
-category:Spreadsheets a skos:Concept,
-  skos:prefLabel "Spreadsheets",
+category:Spreadsheets a skos:Concept;
+  skos:prefLabel "Spreadsheets";
   skos:narrower family:CGN.
 
-family:CGN a skos:Concept,
-  skos:prefLabel "CGN",
+family:CGN a skos:Concept;
+  skos:prefLabel "CGN";
   skos:narrower type:ODS.
  
-type:ODS a skos:Concept,
-  skos:prefLabel "ODS",
-  iana:mimetype "application/vnd.oasis.openocument.spreadsheet",
+type:ODS a skos:Concept;
+  skos:prefLabel "ODS";
+  iana:mimetype "application/vnd.oasis.openocument.spreadsheet";
   iana:extension ".ods".
 
-category:Spreadsheets Related a skos:Concept,
-  skos:prefLabel "Spreadsheets Related",
+category:Spreadsheets_Related a skos:Concept;
+  skos:prefLabel "Spreadsheets Related";
   skos:narrower family:CGN.
 
-family:CGN a skos:Concept,
-  skos:prefLabel "CGN",
-  skos:narrower type:ODS template.
+family:CGN a skos:Concept;
+  skos:prefLabel "CGN";
+  skos:narrower type:ODS_template.
  
-type:ODS template a skos:Concept,
-  skos:prefLabel "ODS template",
-  iana:mimetype "application/vnd.oasis.openocument.spreadsheet-template",
+type:ODS_template a skos:Concept;
+  skos:prefLabel "ODS template";
+  iana:mimetype "application/vnd.oasis.openocument.spreadsheet-template";
   iana:extension ".ods".
 
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
+category:Statistical_data a skos:Concept;
+  skos:prefLabel "Statistical data";
   skos:narrower family:CGN.
 
-family:CGN a skos:Concept,
-  skos:prefLabel "CGN",
-  skos:narrower type:Data and Setup.
+family:CGN a skos:Concept;
+  skos:prefLabel "CGN";
+  skos:narrower type:Data_and_Setup.
  
-type:Data and Setup a skos:Concept,
-  skos:prefLabel "Data and Setup",
-  iana:mimetype "",
+type:Data_and_Setup a skos:Concept;
+  skos:prefLabel "Data and Setup";
+  iana:mimetype "";
   iana:extension ".dat".
 
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
+category:Statistical_data a skos:Concept;
+  skos:prefLabel "Statistical data";
   skos:narrower family:CGN.
 
-family:CGN a skos:Concept,
-  skos:prefLabel "CGN",
-  skos:narrower type:Data and Setup.
+family:CGN a skos:Concept;
+  skos:prefLabel "CGN";
+  skos:narrower type:Data_and_Setup.
  
-type:Data and Setup a skos:Concept,
-  skos:prefLabel "Data and Setup",
-  iana:mimetype "",
+type:Data_and_Setup a skos:Concept;
+  skos:prefLabel "Data and Setup";
+  iana:mimetype "";
   iana:extension ".sps".
 
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
+category:Statistical_data a skos:Concept;
+  skos:prefLabel "Statistical data";
   skos:narrower family:CGN.
 
-family:CGN a skos:Concept,
-  skos:prefLabel "CGN",
-  skos:narrower type:Data and Setup.
+family:CGN a skos:Concept;
+  skos:prefLabel "CGN";
+  skos:narrower type:Data_and_Setup.
  
-type:Data and Setup a skos:Concept,
-  skos:prefLabel "Data and Setup",
-  iana:mimetype "",
+type:Data_and_Setup a skos:Concept;
+  skos:prefLabel "Data and Setup";
+  iana:mimetype "";
   iana:extension ".dat".
 
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
+category:Statistical_data a skos:Concept;
+  skos:prefLabel "Statistical data";
   skos:narrower family:CGN.
 
-family:CGN a skos:Concept,
-  skos:prefLabel "CGN",
-  skos:narrower type:Data and Setup.
+family:CGN a skos:Concept;
+  skos:prefLabel "CGN";
+  skos:narrower type:Data_and_Setup.
  
-type:Data and Setup a skos:Concept,
-  skos:prefLabel "Data and Setup",
-  iana:mimetype "",
+type:Data_and_Setup a skos:Concept;
+  skos:prefLabel "Data and Setup";
+  iana:mimetype "";
   iana:extension ".DO".
 
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
+category:Statistical_data a skos:Concept;
+  skos:prefLabel "Statistical data";
   skos:narrower family:CHAT.
 
-family:CHAT a skos:Concept,
-  skos:prefLabel "CHAT",
+family:CHAT a skos:Concept;
+  skos:prefLabel "CHAT";
   skos:narrower type:DDI.
  
-type:DDI a skos:Concept,
-  skos:prefLabel "DDI",
-  iana:mimetype "",
+type:DDI a skos:Concept;
+  skos:prefLabel "DDI";
+  iana:mimetype "";
   iana:extension ".xml".
 
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
+category:Statistical_data a skos:Concept;
+  skos:prefLabel "Statistical data";
   skos:narrower type:STATA.
  
-type:STATA a skos:Concept,
-  skos:prefLabel "STATA",
-  iana:mimetype "",
+type:STATA a skos:Concept;
+  skos:prefLabel "STATA";
+  iana:mimetype "";
   iana:extension ".dta".
 
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
+category:Statistical_data a skos:Concept;
+  skos:prefLabel "Statistical data";
   skos:narrower type:SPSS.
  
-type:SPSS a skos:Concept,
-  skos:prefLabel "SPSS",
-  iana:mimetype "application/spss-sav",
+type:SPSS a skos:Concept;
+  skos:prefLabel "SPSS";
+  iana:mimetype "application/spss-sav";
   iana:extension ".sav".
 
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
+category:Statistical_data a skos:Concept;
+  skos:prefLabel "Statistical data";
   skos:narrower type:SPSS.
  
-type:SPSS a skos:Concept,
-  skos:prefLabel "SPSS",
-  iana:mimetype "application/spss",
+type:SPSS a skos:Concept;
+  skos:prefLabel "SPSS";
+  iana:mimetype "application/spss";
   iana:extension ".spss".
 
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
+category:Statistical_data a skos:Concept;
+  skos:prefLabel "Statistical data";
   skos:narrower type:SPSS.
  
-type:SPSS a skos:Concept,
-  skos:prefLabel "SPSS",
-  iana:mimetype "application/x-spss-spv",
+type:SPSS a skos:Concept;
+  skos:prefLabel "SPSS";
+  iana:mimetype "application/x-spss-spv";
   iana:extension ".spv".
 
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
+category:Statistical_data a skos:Concept;
+  skos:prefLabel "Statistical data";
   skos:narrower family:Shoebox.
 
-family:Shoebox a skos:Concept,
-  skos:prefLabel "Shoebox",
-  skos:narrower type:SPSS Portable.
+family:Shoebox a skos:Concept;
+  skos:prefLabel "Shoebox";
+  skos:narrower type:SPSS_Portable.
  
-type:SPSS Portable a skos:Concept,
-  skos:prefLabel "SPSS Portable",
-  iana:mimetype "application/x-spss-por",
+type:SPSS_Portable a skos:Concept;
+  skos:prefLabel "SPSS Portable";
+  iana:mimetype "application/x-spss-por";
   iana:extension ".por".
 
-category:Statistical data a skos:Concept,
-  skos:prefLabel "Statistical data",
+category:Statistical_data a skos:Concept;
+  skos:prefLabel "Statistical data";
   skos:narrower family:Shoebox.
 
-family:Shoebox a skos:Concept,
-  skos:prefLabel "Shoebox",
-  skos:narrower type:SPSS Transport.
+family:Shoebox a skos:Concept;
+  skos:prefLabel "Shoebox";
+  skos:narrower type:SPSS_Transport.
  
-type:SPSS Transport a skos:Concept,
-  skos:prefLabel "SPSS Transport",
-  iana:mimetype "",
+type:SPSS_Transport a skos:Concept;
+  skos:prefLabel "SPSS Transport";
+  iana:mimetype "";
   iana:extension ".sas".
 
-category:Text/Document a skos:Concept,
-  skos:prefLabel "Text/Document",
+category:Text_Document a skos:Concept;
+  skos:prefLabel "Text/Document";
   skos:narrower family:Shoebox.
 
-family:Shoebox a skos:Concept,
-  skos:prefLabel "Shoebox",
+family:Shoebox a skos:Concept;
+  skos:prefLabel "Shoebox";
   skos:narrower type:PDF.
  
-type:PDF a skos:Concept,
-  skos:prefLabel "PDF",
-  iana:mimetype "application/pdf",
+type:PDF a skos:Concept;
+  skos:prefLabel "PDF";
+  iana:mimetype "application/pdf";
   iana:extension ".pdf".
 
-category:Text/Document a skos:Concept,
-  skos:prefLabel "Text/Document",
+category:Text_Document a skos:Concept;
+  skos:prefLabel "Text/Document";
   skos:narrower family:Shoebox.
 
-family:Shoebox a skos:Concept,
-  skos:prefLabel "Shoebox",
+family:Shoebox a skos:Concept;
+  skos:prefLabel "Shoebox";
   skos:narrower type:ODT.
  
-type:ODT a skos:Concept,
-  skos:prefLabel "ODT",
-  iana:mimetype "application/vnd.oasis.opendocument.text ",
+type:ODT a skos:Concept;
+  skos:prefLabel "ODT";
+  iana:mimetype "application/vnd.oasis.opendocument.text";
   iana:extension ".odt".
 
-category:Text/Document a skos:Concept,
-  skos:prefLabel "Text/Document",
-  skos:narrower type:PDF/A.
+category:Text_Document a skos:Concept;
+  skos:prefLabel "Text/Document";
+  skos:narrower type:PDF_A.
  
-type:PDF/A a skos:Concept,
-  skos:prefLabel "PDF/A",
-  iana:mimetype "application/pdf",
+type:PDF_A a skos:Concept;
+  skos:prefLabel "PDF/A";
+  iana:mimetype "application/pdf";
   iana:extension ".pdf".
 
-category:Text/Document a skos:Concept,
-  skos:prefLabel "Text/Document",
+category:Text_Document a skos:Concept;
+  skos:prefLabel "Text/Document";
   skos:narrower type:DOCX.
  
-type:DOCX a skos:Concept,
-  skos:prefLabel "DOCX",
-  iana:mimetype "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+type:DOCX a skos:Concept;
+  skos:prefLabel "DOCX";
+  iana:mimetype "application/vnd.openxmlformats-officedocument.wordprocessingml.document";
   iana:extension ".docx".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:XML.
  
-type:XML a skos:Concept,
-  skos:prefLabel "XML",
-  iana:mimetype "text/xml",
+type:XML a skos:Concept;
+  skos:prefLabel "XML";
+  iana:mimetype "text/xml";
   iana:extension ".xml".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:HTML.
  
-type:HTML a skos:Concept,
-  skos:prefLabel "HTML",
-  iana:mimetype "text/html",
+type:HTML a skos:Concept;
+  skos:prefLabel "HTML";
+  iana:mimetype "text/html";
   iana:extension ".html".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:TEI.
  
-type:TEI a skos:Concept,
-  skos:prefLabel "TEI",
-  iana:mimetype "application/tei+xml",
+type:TEI a skos:Concept;
+  skos:prefLabel "TEI";
+  iana:mimetype "application/tei+xml";
   iana:extension ".tei".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:ELAN.
  
-type:ELAN a skos:Concept,
-  skos:prefLabel "ELAN",
-  iana:mimetype "text/x-eaf+xml",
+type:ELAN a skos:Concept;
+  skos:prefLabel "ELAN";
+  iana:mimetype "text/x-eaf+xml";
   iana:extension ".eaf".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower family:PDF.
 
-family:PDF a skos:Concept,
-  skos:prefLabel "PDF",
-  skos:narrower type:Praat Textgrid.
+family:PDF a skos:Concept;
+  skos:prefLabel "PDF";
+  skos:narrower type:Praat_Textgrid.
  
-type:Praat Textgrid a skos:Concept,
-  skos:prefLabel "Praat Textgrid",
-  iana:mimetype "text/praat-textgrid",
+type:Praat_Textgrid a skos:Concept;
+  skos:prefLabel "Praat Textgrid";
+  iana:mimetype "text/praat-textgrid";
   iana:extension ".TextGrid".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:ISO/TEI transcriptions of spoken language.
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
+  skos:narrower type:ISO_TEI_transcriptions_of_spoken_language.
  
-type:ISO/TEI transcriptions of spoken language a skos:Concept,
-  skos:prefLabel "ISO/TEI transcriptions of spoken language",
-  iana:mimetype "application/tei+xml;format-variant=tei-iso-spoken",
+type:ISO_TEI_transcriptions_of_spoken_language a skos:Concept;
+  skos:prefLabel "ISO/TEI transcriptions of spoken language";
+  iana:mimetype "application/tei+xml;format-variant=tei-iso-spoken";
   iana:extension ".tei".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:EXMARaLDA basic transcription.
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
+  skos:narrower type:EXMARaLDA_basic_transcription.
  
-type:EXMARaLDA basic transcription a skos:Concept,
-  skos:prefLabel "EXMARaLDA basic transcription",
-  iana:mimetype "text/exb+xml",
+type:EXMARaLDA_basic_transcription a skos:Concept;
+  skos:prefLabel "EXMARaLDA basic transcription";
+  iana:mimetype "text/exb+xml";
   iana:extension ".exb".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:EXMARaLDA segmented transcription.
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
+  skos:narrower type:EXMARaLDA_segmented_transcription.
  
-type:EXMARaLDA segmented transcription a skos:Concept,
-  skos:prefLabel "EXMARaLDA segmented transcription",
-  iana:mimetype "text/exs+xml",
+type:EXMARaLDA_segmented_transcription a skos:Concept;
+  skos:prefLabel "EXMARaLDA segmented transcription";
+  iana:mimetype "text/exs+xml";
   iana:extension ".exs".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:Transcriber.
  
-type:Transcriber a skos:Concept,
-  skos:prefLabel "Transcriber",
-  iana:mimetype "text/x-trs",
+type:Transcriber a skos:Concept;
+  skos:prefLabel "Transcriber";
+  iana:mimetype "text/x-trs";
   iana:extension ".trs".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:CoNLL.
  
-type:CoNLL a skos:Concept,
-  skos:prefLabel "CoNLL",
-  iana:mimetype "text/plain",
+type:CoNLL a skos:Concept;
+  skos:prefLabel "CoNLL";
+  iana:mimetype "text/plain";
   iana:extension ".csv".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:CoNLL.
  
-type:CoNLL a skos:Concept,
-  skos:prefLabel "CoNLL",
-  iana:mimetype "text/plain",
+type:CoNLL a skos:Concept;
+  skos:prefLabel "CoNLL";
+  iana:mimetype "text/plain";
   iana:extension ".txt".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:Folker.
  
-type:Folker a skos:Concept,
-  skos:prefLabel "Folker",
-  iana:mimetype "application/xml",
+type:Folker a skos:Concept;
+  skos:prefLabel "Folker";
+  iana:mimetype "application/xml";
   iana:extension ".fln".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:LaTeX.
  
-type:LaTeX a skos:Concept,
-  skos:prefLabel "LaTeX",
-  iana:mimetype "application/x-latex",
+type:LaTeX a skos:Concept;
+  skos:prefLabel "LaTeX";
+  iana:mimetype "application/x-latex";
   iana:extension ".latex".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:Lexical markup format.
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
+  skos:narrower type:Lexical_markup_format.
  
-type:Lexical markup format a skos:Concept,
-  skos:prefLabel "Lexical markup format",
-  iana:mimetype "text/x-lmf+xml",
+type:Lexical_markup_format a skos:Concept;
+  skos:prefLabel "Lexical markup format";
+  iana:mimetype "text/x-lmf+xml";
   iana:extension ".lmf".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:TCF.
  
-type:TCF a skos:Concept,
-  skos:prefLabel "TCF",
-  iana:mimetype "application/xml+tcf",
+type:TCF a skos:Concept;
+  skos:prefLabel "TCF";
+  iana:mimetype "application/xml+tcf";
   iana:extension ".tcf".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:TeX.
  
-type:TeX a skos:Concept,
-  skos:prefLabel "TeX",
-  iana:mimetype "application/x-tex",
+type:TeX a skos:Concept;
+  skos:prefLabel "TeX";
+  iana:mimetype "application/x-tex";
   iana:extension ".tex".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:ANVIL.
  
-type:ANVIL a skos:Concept,
-  skos:prefLabel "ANVIL",
-  iana:mimetype "?? ",
+type:ANVIL a skos:Concept;
+  skos:prefLabel "ANVIL";
+  iana:mimetype "??";
   iana:extension ".anvil".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:BAS Partitur Format .
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
+  skos:narrower type:BAS_Partitur_Format.
  
-type:BAS Partitur Format  a skos:Concept,
-  skos:prefLabel "BAS Partitur Format ",
-  iana:mimetype "text/plain-bas",
+type:BAS_Partitur_Format a skos:Concept;
+  skos:prefLabel "BAS Partitur Format";
+  iana:mimetype "text/plain-bas";
   iana:extension ".par".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:CHAT.
  
-type:CHAT a skos:Concept,
-  skos:prefLabel "CHAT",
-  iana:mimetype "text/x-chat",
+type:CHAT a skos:Concept;
+  skos:prefLabel "CHAT";
+  iana:mimetype "text/x-chat";
   iana:extension ".cha".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:TEI DTABf.
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
+  skos:narrower type:TEI_DTABf.
  
-type:TEI DTABf a skos:Concept,
-  skos:prefLabel "TEI DTABf",
-  iana:mimetype "application/tei+xml",
+type:TEI_DTABf a skos:Concept;
+  skos:prefLabel "TEI DTABf";
+  iana:mimetype "application/tei+xml";
   iana:extension ".xml".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:CHAT lexicon.
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
+  skos:narrower type:CHAT_lexicon.
  
-type:CHAT lexicon a skos:Concept,
-  skos:prefLabel "CHAT lexicon",
-  iana:mimetype "text/x-cut",
+type:CHAT_lexicon a skos:Concept;
+  skos:prefLabel "CHAT lexicon";
+  iana:mimetype "text/x-cut";
   iana:extension ".cut".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:ELAN Settings File.
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
+  skos:narrower type:ELAN_Settings_File.
  
-type:ELAN Settings File a skos:Concept,
-  skos:prefLabel "ELAN Settings File",
-  iana:mimetype "text/x-pfsx+xml",
+type:ELAN_Settings_File a skos:Concept;
+  skos:prefLabel "ELAN Settings File";
+  iana:mimetype "text/x-pfsx+xml";
   iana:extension ".pfsx".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
-  skos:narrower type:Toolbox Lexicon.
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
+  skos:narrower type:Toolbox_Lexicon.
  
-type:Toolbox Lexicon a skos:Concept,
-  skos:prefLabel "Toolbox Lexicon",
-  iana:mimetype "text/x-toolbox-text",
+type:Toolbox_Lexicon a skos:Concept;
+  skos:prefLabel "Toolbox Lexicon";
+  iana:mimetype "text/x-toolbox-text";
   iana:extension ".tbt".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:negra.
  
-type:negra a skos:Concept,
-  skos:prefLabel "negra",
-  iana:mimetype "text/plain",
+type:negra a skos:Concept;
+  skos:prefLabel "negra";
+  iana:mimetype "text/plain";
   iana:extension ".csv".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:negra.
  
-type:negra a skos:Concept,
-  skos:prefLabel "negra",
-  iana:mimetype "text/plain",
+type:negra a skos:Concept;
+  skos:prefLabel "negra";
+  iana:mimetype "text/plain";
   iana:extension ".txt".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-cgn-bpt+xml",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-cgn-bpt+xml";
   iana:extension ".bpt".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-cgn-lxk+xml",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-cgn-lxk+xml";
   iana:extension ".lxk".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-cgn-pri+xml",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-cgn-pri+xml";
   iana:extension ".pri".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-cgn-prx+xml",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-cgn-prx+xml";
   iana:extension ".prx".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-cgn-skp+xml",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-cgn-skp+xml";
   iana:extension ".skp".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-cgn-tag+xml",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-cgn-tag+xml";
   iana:extension ".tag".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-cgn-tig+xml",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-cgn-tig+xml";
   iana:extension ".tig".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-esf",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-esf";
   iana:extension ".tr".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-lexus-config+xml",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-lexus-config+xml";
   iana:extension ".conf".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-shoebox-language",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-shoebox-language";
   iana:extension ".lng".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-shoebox-lexicon",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-shoebox-lexicon";
   iana:extension ".shx".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-shoebox-sortorder",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-shoebox-sortorder";
   iana:extension ".set".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-shoebox-text",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-shoebox-text";
   iana:extension ".sht".
 
-category:Text/Markup a skos:Concept,
-  skos:prefLabel "Text/Markup",
+category:Text_Markup a skos:Concept;
+  skos:prefLabel "Text/Markup";
   skos:narrower type:.
  
-type: a skos:Concept,
-  skos:prefLabel "",
-  iana:mimetype "text/x-shoebox-type",
+type: a skos:Concept;
+  skos:prefLabel "";
+  iana:mimetype "text/x-shoebox-type";
   iana:extension ".typ".
 
-category:Text/Markup Related a skos:Concept,
-  skos:prefLabel "Text/Markup Related",
+category:Text_Markup_Related a skos:Concept;
+  skos:prefLabel "Text/Markup Related";
   skos:narrower type:CSS.
  
-type:CSS a skos:Concept,
-  skos:prefLabel "CSS",
-  iana:mimetype "text/css",
+type:CSS a skos:Concept;
+  skos:prefLabel "CSS";
+  iana:mimetype "text/css";
   iana:extension ".css".
 
-category:Text/Markup Related a skos:Concept,
-  skos:prefLabel "Text/Markup Related",
+category:Text_Markup_Related a skos:Concept;
+  skos:prefLabel "Text/Markup Related";
   skos:narrower type:XSLT.
  
-type:XSLT a skos:Concept,
-  skos:prefLabel "XSLT",
-  iana:mimetype "text/xslt",
+type:XSLT a skos:Concept;
+  skos:prefLabel "XSLT";
+  iana:mimetype "text/xslt";
   iana:extension ".xslt".
 
-category:Text/Markup Related a skos:Concept,
-  skos:prefLabel "Text/Markup Related",
+category:Text_Markup_Related a skos:Concept;
+  skos:prefLabel "Text/Markup Related";
   skos:narrower type:XSD.
  
-type:XSD a skos:Concept,
-  skos:prefLabel "XSD",
-  iana:mimetype "text/xml",
+type:XSD a skos:Concept;
+  skos:prefLabel "XSD";
+  iana:mimetype "text/xml";
   iana:extension ".xsd".
 
-category:Text/Markup Related a skos:Concept,
-  skos:prefLabel "Text/Markup Related",
+category:Text_Markup_Related a skos:Concept;
+  skos:prefLabel "Text/Markup Related";
   skos:narrower type:Javascript.
  
-type:Javascript a skos:Concept,
-  skos:prefLabel "Javascript",
-  iana:mimetype "text/javascript",
+type:Javascript a skos:Concept;
+  skos:prefLabel "Javascript";
+  iana:mimetype "text/javascript";
   iana:extension ".js".
 
-category:Text/Markup Related a skos:Concept,
-  skos:prefLabel "Text/Markup Related",
+category:Text_Markup_Related a skos:Concept;
+  skos:prefLabel "Text/Markup Related";
   skos:narrower type:ECMAScript.
  
-type:ECMAScript a skos:Concept,
-  skos:prefLabel "ECMAScript",
-  iana:mimetype "text/ecmascript",
+type:ECMAScript a skos:Concept;
+  skos:prefLabel "ECMAScript";
+  iana:mimetype "text/ecmascript";
   iana:extension ".es".
 
-category:Text/Markup Related a skos:Concept,
-  skos:prefLabel "Text/Markup Related",
-  skos:narrower type:XML DTD.
+category:Text_Markup_Related a skos:Concept;
+  skos:prefLabel "Text/Markup Related";
+  skos:narrower type:XML_DTD.
  
-type:XML DTD a skos:Concept,
-  skos:prefLabel "XML DTD",
-  iana:mimetype "text/xml",
+type:XML_DTD a skos:Concept;
+  skos:prefLabel "XML DTD";
+  iana:mimetype "text/xml";
   iana:extension ".dtd".
 
-category:Text/Plain a skos:Concept,
-  skos:prefLabel "Text/Plain",
-  skos:narrower type:Plain text.
+category:Text_Plain a skos:Concept;
+  skos:prefLabel "Text/Plain";
+  skos:narrower type:Plain_text.
  
-type:Plain text a skos:Concept,
-  skos:prefLabel "Plain text",
-  iana:mimetype "text/plain",
+type:Plain_text a skos:Concept;
+  skos:prefLabel "Plain text";
+  iana:mimetype "text/plain";
   iana:extension ".txt".
 
-category:Text/Plain a skos:Concept,
-  skos:prefLabel "Text/Plain",
+category:Text_Plain a skos:Concept;
+  skos:prefLabel "Text/Plain";
   skos:narrower family:SPSS.
 
-family:SPSS a skos:Concept,
-  skos:prefLabel "SPSS",
-  skos:narrower type:Unicode Text.
+family:SPSS a skos:Concept;
+  skos:prefLabel "SPSS";
+  skos:narrower type:Unicode_Text.
  
-type:Unicode Text a skos:Concept,
-  skos:prefLabel "Unicode Text",
-  iana:mimetype "text/plain",
+type:Unicode_Text a skos:Concept;
+  skos:prefLabel "Unicode Text";
+  iana:mimetype "text/plain";
   iana:extension ".txt".
 
-category:Text/Plain a skos:Concept,
-  skos:prefLabel "Text/Plain",
+category:Text_Plain a skos:Concept;
+  skos:prefLabel "Text/Plain";
   skos:narrower family:SPSS.
 
-family:SPSS a skos:Concept,
-  skos:prefLabel "SPSS",
-  skos:narrower type:UTF-8 Encoded.
+family:SPSS a skos:Concept;
+  skos:prefLabel "SPSS";
+  skos:narrower type:UTF-8_Encoded.
  
-type:UTF-8 Encoded a skos:Concept,
-  skos:prefLabel "UTF-8 Encoded",
-  iana:mimetype "text/plain",
+type:UTF-8_Encoded a skos:Concept;
+  skos:prefLabel "UTF-8 Encoded";
+  iana:mimetype "text/plain";
   iana:extension ".txt".
 
-category:Video a skos:Concept,
-  skos:prefLabel "Video",
+category:Video a skos:Concept;
+  skos:prefLabel "Video";
   skos:narrower family:SPSS.
 
-family:SPSS a skos:Concept,
-  skos:prefLabel "SPSS",
-  skos:narrower type:MPEG 4 video.
+family:SPSS a skos:Concept;
+  skos:prefLabel "SPSS";
+  skos:narrower type:MPEG_4_video.
  
-type:MPEG 4 video a skos:Concept,
-  skos:prefLabel "MPEG 4 video",
-  iana:mimetype "video/mp4",
+type:MPEG_4_video a skos:Concept;
+  skos:prefLabel "MPEG 4 video";
+  iana:mimetype "video/mp4";
   iana:extension ".mp4".
 
-category:Video a skos:Concept,
-  skos:prefLabel "Video",
-  skos:narrower type:MPEG 1 video.
+category:Video a skos:Concept;
+  skos:prefLabel "Video";
+  skos:narrower type:MPEG_1_video.
  
-type:MPEG 1 video a skos:Concept,
-  skos:prefLabel "MPEG 1 video",
-  iana:mimetype "video/mpeg",
+type:MPEG_1_video a skos:Concept;
+  skos:prefLabel "MPEG 1 video";
+  iana:mimetype "video/mpeg";
   iana:extension ".mpg".
 
-category:Video a skos:Concept,
-  skos:prefLabel "Video",
-  skos:narrower type:MPEG 2 video.
+category:Video a skos:Concept;
+  skos:prefLabel "Video";
+  skos:narrower type:MPEG_2_video.
  
-type:MPEG 2 video a skos:Concept,
-  skos:prefLabel "MPEG 2 video",
-  iana:mimetype "video/mpeg",
+type:MPEG_2_video a skos:Concept;
+  skos:prefLabel "MPEG 2 video";
+  iana:mimetype "video/mpeg";
   iana:extension ".mpeg".
 
-category:Video a skos:Concept,
-  skos:prefLabel "Video",
+category:Video a skos:Concept;
+  skos:prefLabel "Video";
   skos:narrower type:QuickTime.
  
-type:QuickTime a skos:Concept,
-  skos:prefLabel "QuickTime",
-  iana:mimetype "video/quicktime",
+type:QuickTime a skos:Concept;
+  skos:prefLabel "QuickTime";
+  iana:mimetype "video/quicktime";
   iana:extension ".mov".
 
-category:Video a skos:Concept,
-  skos:prefLabel "Video",
+category:Video a skos:Concept;
+  skos:prefLabel "Video";
   skos:narrower type:AVI.
  
-type:AVI a skos:Concept,
-  skos:prefLabel "AVI",
-  iana:mimetype "video/avi",
+type:AVI a skos:Concept;
+  skos:prefLabel "AVI";
+  iana:mimetype "video/avi";
   iana:extension ".avi".
 
-category:Video a skos:Concept,
-  skos:prefLabel "Video",
-  skos:narrower type:Motion JPEG 2000.
+category:Video a skos:Concept;
+  skos:prefLabel "Video";
+  skos:narrower type:Motion_JPEG_2000.
  
-type:Motion JPEG 2000 a skos:Concept,
-  skos:prefLabel "Motion JPEG 2000",
-  iana:mimetype "video/mj2",
+type:Motion_JPEG_2000 a skos:Concept;
+  skos:prefLabel "Motion JPEG 2000";
+  iana:mimetype "video/mj2";
   iana:extension ".m2j".
 
-category:Video a skos:Concept,
-  skos:prefLabel "Video",
+category:Video a skos:Concept;
+  skos:prefLabel "Video";
   skos:narrower type:MXF.
  
-type:MXF a skos:Concept,
-  skos:prefLabel "MXF",
-  iana:mimetype "application/mxf",
+type:MXF a skos:Concept;
+  skos:prefLabel "MXF";
+  iana:mimetype "application/mxf";
   iana:extension ".mxf".
 
-category:Video a skos:Concept,
-  skos:prefLabel "Video",
-  skos:narrower type:OGG Video.
+category:Video a skos:Concept;
+  skos:prefLabel "Video";
+  skos:narrower type:OGG_Video.
  
-type:OGG Video a skos:Concept,
-  skos:prefLabel "OGG Video",
-  iana:mimetype "",
+type:OGG_Video a skos:Concept;
+  skos:prefLabel "OGG Video";
+  iana:mimetype "";
   iana:extension ".ogv".
 
-category:Video a skos:Concept,
-  skos:prefLabel "Video",
-  skos:narrower type:OGG Video.
+category:Video a skos:Concept;
+  skos:prefLabel "Video";
+  skos:narrower type:OGG_Video.
  
-type:OGG Video a skos:Concept,
-  skos:prefLabel "OGG Video",
-  iana:mimetype "",
+type:OGG_Video a skos:Concept;
+  skos:prefLabel "OGG Video";
+  iana:mimetype "";
   iana:extension ".ogg".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
-  skos:narrower type:BibTeX.
- 
-type:BibTeX a skos:Concept,
-  skos:prefLabel "BibTeX",
-  iana:mimetype "text/plain",
-  iana:extension ".bib".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
-  skos:narrower type:Tab Separated Data File.
- 
-type:Tab Separated Data File a skos:Concept,
-  skos:prefLabel "Tab Separated Data File",
-  iana:mimetype "text/plain",
-  iana:extension ".tab".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
-  skos:narrower type:Computerized Speech Lab NSP.
- 
-type:Computerized Speech Lab NSP a skos:Concept,
-  skos:prefLabel "Computerized Speech Lab NSP",
-  iana:mimetype "?? application/octet-stream",
-  iana:extension ".nsp".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
-  skos:narrower family:TEI.
-
-family:TEI a skos:Concept,
-  skos:prefLabel "TEI",
-  skos:narrower type:E-Merge Experiment File.
- 
-type:E-Merge Experiment File a skos:Concept,
-  skos:prefLabel "E-Merge Experiment File",
-  iana:mimetype "application/x-ole-storage",
-  iana:extension ".emrg2".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
-  skos:narrower type:E-Run Experiment File.
- 
-type:E-Run Experiment File a skos:Concept,
-  skos:prefLabel "E-Run Experiment File",
-  iana:mimetype "application/octet-stream",
-  iana:extension ".ebs2".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
-  skos:narrower type:E-Studio Experimental File.
- 
-type:E-Studio Experimental File a skos:Concept,
-  skos:prefLabel "E-Studio Experimental File",
-  iana:mimetype "text/plain",
-  iana:extension ".es2".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
-  skos:narrower type:Jupyter Notebook.
- 
-type:Jupyter Notebook a skos:Concept,
-  skos:prefLabel "Jupyter Notebook",
-  iana:mimetype "text/plain",
-  iana:extension ".ipynb".
-
-category:-- a skos:Concept,
-  skos:prefLabel "--",
-  skos:narrower type:PowerPoint Presentation.
- 
-type:PowerPoint Presentation a skos:Concept,
-  skos:prefLabel "PowerPoint Presentation",
-  iana:mimetype "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-  iana:extension ".pptx".
 
