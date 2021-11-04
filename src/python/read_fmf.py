@@ -37,29 +37,32 @@ if __name__ == "__main__":
         linereader = csv.DictReader(csvfile, delimiter='\t')
         for row in linereader:
             count_total += 1
+            type_w_o_spaces = re.sub(r'[ ()/]','_',row['Name'])
+            cat_w_o_spaces = re.sub(r'[ ()/]','_',row['Category'])
             for ext in re.split(',|;|/',row['Extension']):
-                if row['Extension']!='??' and row['Extension']!='':
-                    lines_family = f'''category:{row['Category']} a skos:Concept,
-  skos:prefLabel "{row['Category']}",
+                if row['Extension']!='??' and row['Extension']!='' \
+                    and row['Category']!='--':
+                    lines_family = f'''category:{cat_w_o_spaces} a skos:Concept;
+  skos:prefLabel "{row['Category']}";
   skos:narrower family:{row['Family']}.
 
-family:{row['Family']} a skos:Concept,
-  skos:prefLabel "{row['Family']}",
-  skos:narrower type:{row['Name']}.
+family:{row['Family']} a skos:Concept;
+  skos:prefLabel "{row['Family']}";
+  skos:narrower type:{type_w_o_spaces}.
  
-type:{row['Name']} a skos:Concept,
-  skos:prefLabel "{row['Name']}",
-  iana:mimetype "{row['Mimetype']}",
+type:{type_w_o_spaces} a skos:Concept;
+  skos:prefLabel "{row['Name']}";
+  iana:mimetype "{row['Mimetype']}";
   iana:extension "{ext.strip()}".
 
 '''
-                    lines_type = f'''category:{row['Category']} a skos:Concept,
-  skos:prefLabel "{row['Category']}",
-  skos:narrower type:{row['Name']}.
+                    lines_type = f'''category:{cat_w_o_spaces} a skos:Concept;
+  skos:prefLabel "{row['Category']}";
+  skos:narrower type:{type_w_o_spaces}.
  
-type:{row['Name']} a skos:Concept,
-  skos:prefLabel "{row['Name']}",
-  iana:mimetype "{row['Mimetype']}",
+type:{type_w_o_spaces} a skos:Concept;
+  skos:prefLabel "{row['Name']}";
+  iana:mimetype "{row['Mimetype']}";
   iana:extension "{ext.strip()}".
 
 '''
